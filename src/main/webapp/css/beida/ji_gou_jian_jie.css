@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+#banner {
+	margin-top:0px;
+}
+
+#content-main-text {
+	padding: 55px 35px 55px 12px;
+}
+.content_detail_bd p {
+	font-size:14px;
+	text-align: left;
+	line-height: 28px;
+}

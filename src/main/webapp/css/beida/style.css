@@ -1,0 +1,432 @@
+img {border:none;}
+body {
+    margin:0px; padding:0px;
+    background-color:rgb(227,224,209);
+    font-family:"宋体";
+	text-align:center;
+	color: #333;
+}
+
+.container {
+    width:980px;
+    margin:0 auto;
+
+}
+
+#header {
+	width: 980px;
+	height: 133px;
+	/*background-color:rgb(17,55,103);*/
+	background: url(../../images/beida/newbanner.jpg);
+	/*border-radius: 5px;*/
+	/*margin-bottom:1px;*/
+	position:relative;
+}
+#header .yybc {left:455px !important;}
+#header .wsYy {left:706px !important;}
+#header img {
+  float: left;
+}
+
+#navi {
+	font-family:"微软雅黑", Simsun;
+	margin-top: 45px;
+	width: 665px;
+	height: 20px;
+	padding-top: 14px;padding-bottom:14px;
+	padding-left: 5px;
+	margin-left: 10px;
+	background-image: url(../../images/beida/navi-bg.png);
+	float:left;
+	border-radius: 5px;
+}
+#navi a {font-size:14px;color:#03224a;}
+#navi a:hover {
+	color:#666;
+}
+
+#block_feature {
+	width: 980px;
+	height: 302px;
+	background-image: url(../../images/beida/feature-bg.jpg);
+	border-radius: 5px;
+	margin-bottom:5px;
+	position: relative;
+}
+
+#feature_sjxx {
+    float: left;
+    height: 108px;
+    left: 130px;
+    position: absolute;
+    top: 80px;
+    width: 107px;
+}
+#feature_xzxx {
+    float: left;
+    height: 108px;
+    left: 278px;
+    position: absolute;
+    top: 80px;
+    width: 107px;
+}
+#feature_oa {
+    float: left;
+    height: 108px;
+    left: 426px;
+    position: absolute;
+    top: 80px;
+    width: 107px;
+}
+#dcszz {
+    clear: left;
+    float: left;
+    height: 49px;
+    left: 80px;
+    position: relative;
+    top: 220px;
+    width: 235px;
+}
+#xfbzz {
+    float: left;
+    height: 49px;
+    left: 100px;
+    position: relative;
+    top: 220px;
+    width: 235px;
+}
+#work_list {
+	background-image: url(../../images/beida/feature-rect.png);
+	float: right;	
+	width: 283px;
+	height: 310px;
+	margin-top: -3px;
+	margin-right: 25px;
+}
+#search {
+	font-family:微软雅黑;
+	font-size:12px;
+	background-color: rgb(251,251,251);
+	width: 215px;
+	height: 20px;
+	margin: 25px 25px 15px 25px;
+	padding: 9px 10px 5px 10px;
+	border-radius: 20px;
+}
+
+#search img {
+	padding-top: 1px;
+	float: left;
+}
+
+#search_input {
+	padding-left: 25px;
+}
+#work_list ul {
+	list-style-image: url(../../images/beida/list-grey_01.png);
+}
+
+#work_list ul li {
+	font-family:微软雅黑;
+	list-style-position: inside;
+	background-color: rgb(248,248,248);
+	width: 180px;
+	height: 18px;
+	padding: 4px 30px 10px;
+	margin: 5px -18px;
+	border-radius: 5px;
+	text-align:left;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#block_content_up {
+	width: 980px;
+	height: 216px;
+	background-image: url(../../images/beida/content-up.png);
+	border-radius: 5px;
+	margin-bottom:5px;
+	font-family:宋体;
+}
+
+#block_content_down {
+	width: 980px;
+	height: 216px;
+	background-image: url(../../images/beida/content-down.png);
+	border-radius: 5px;
+	margin-bottom:5px;
+	font-family:宋体;
+}
+
+#block_content_up ul {
+	margin:0;
+	padding:0;
+}
+
+#block_content_down ul {
+	margin:0;
+	padding:0;
+}
+
+.infobox {
+	width:310px;
+	height: 167px;
+	font-size: 13px;
+	line-height: 26px;
+	float: left;
+	list-style-position: inside;
+	position: relative;
+	/*top: 60px;*/
+	padding-left:15px;
+	padding-left:0px\9;
+	*padding-left:0px;
+}
+
+.infobox_right {
+	width:285px;
+	float:right;
+	margin-right:10px;
+}
+
+#footer {
+	clear:both;
+	width: 980px;
+	font-size: 14px;
+	text-align:left;
+	background-image: url(../../images/beida/footBj.png);
+	height:45px;
+	line-height:45px;
+}
+#footer b {margin-left:10px;}
+#footer a {color:#444; margin-right:12px;}
+
+#copyright {
+	width: 920px;
+	height: 25px;
+	padding: 30px;
+	border-radius: 10px;
+	text-align:center;
+	font-size:13px;
+	color:#777777;
+}
+
+.content_title_bd{
+    font-size: 24px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif; 
+    line-height: 28px;
+     margin: 20px 0px 0px;
+     padding: 0px; 
+     border: 0px; 
+
+     color: rgb(51, 51, 51); 
+     text-align: center; 
+     font-family: 微软雅黑, 华文细黑, 黑体; 
+
+     font-style: normal; 
+     font-variant: normal; 
+     letter-spacing: normal; 
+     orphans: auto; 
+     text-indent: 0px;
+      text-transform: none;
+       white-space: normal; 
+       widows: auto; 
+       word-spacing: 0px; 
+       -webkit-text-stroke-width: 0px; 
+       background-color: rgb(255, 255, 255);
+}
+
+.content_title_bd2{
+	font-size: 18px; 
+	line-height: 24px;
+	 margin: 20px 0px 5px; 
+	 padding: 0px; 
+	 border: 0px;
+	 color: rgb(68, 68, 68);
+	 text-align: center;
+}
+
+.content_detail_bd{
+	font-size: 18px; 
+	line-height: 24px;
+	 margin: 0px 0px 5px; 
+	 padding: 0px;
+	  border: 0px; 
+	 color: rgb(68, 68, 68); 
+	 font-family: Simsun; 
+	 font-style: normal; 
+	 font-variant: normal;
+	  font-weight: normal;
+	   letter-spacing: normal;
+	    orphans: auto; 
+	    text-indent: 0px; 
+	    text-transform: none; 
+	    white-space: normal; 
+	    widows: auto; 
+	    word-spacing: 0px;
+	     -webkit-text-stroke-width: 0px; 
+	     background-color: rgb(255, 255, 255);
+	     width:620px;
+	     min-height: 500px;
+}
+
+
+.morebutton1{
+	display: block;
+    height: 54px;
+    left: 32%;
+    margin-left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 431px;
+    width: 100px;
+
+    color: #fbf0bb;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.morebutton2{
+	display: block;
+    height: 54px;
+    left: 55%;
+    margin-left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 431px;
+    width: 100px;
+
+    color: #fbf0bb;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.morebutton3{
+	display: block;
+    height: 54px;
+    left: 50%;
+    margin-left: 405px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 431px;
+    width: 75px;
+
+    color: #fbf0bb;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+
+
+
+.morebutton4{
+	display: block;
+    height: 54px;
+    left: 32%;
+    margin-left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 647px;
+    width: 100px;
+    color: #fbf0bb;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.morebutton5{
+	display: block;
+    height: 54px;
+    left: 55%;
+    margin-left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 647px;
+    width: 100px;
+
+    color: #fbf0bb;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.morebutton6{
+	display: block;
+    height: 54px;
+    left: 50%;
+    margin-left: 405px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 647px;
+    width: 75px;
+
+    color: #fbf0bb;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+
+
+h1 {
+    color: #333;
+    font-family: "微软雅黑","华文细黑","黑体";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.fulltext{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: #444;
+    text-align: left;
+}
+
+
+.spc {
+    text-indent: 36px;
+}
+
+
+.lft {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 20px 0 5px;
+    text-align: left;
+    text-indent: 0;
+}
+
+/**0902-新增*/
+.tiTou {width:310px;height:40px; margin-bottom:15px; margin-left:15px\9;*margin-left:15px;}
+.infobox_right .tiTou {width:285px;}
+.tiTou span {font-size:18px; display:inline-block; float:left; margin-top:13px; color:#444444; font-family:微软雅黑;}
+.tiTou a {display:block;width:44px;height:13px; float:right; margin-top:20px; margin-right:5px; cursor:pointer;background-image: url(../../images/beida/mun1.png);}
+#work_list ul li a {color:#113767;font-size:16px;}
+.infobox ul li {height:26px; overflow:hidden;list-style:none;padding-left:10px;background:url(../../images/beida/dian.jpg) no-repeat 0 10px;}
+.infobox ul li a {display:inline-block;width:220px;width:235px\9;*width:235px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow:hidden;line-height:26px; font-size:14px; text-align:left; float:left;}
+.infobox ul li span {display:inline-block; width:70px; text-align:right; line-height:26px;}
+.infobox_right ul li a {width:200px;}
+
+.zhengWenbj {	
+	background: url("../../images/beida/diTu.jpg") no-repeat scroll center bottom #fff !important;
+}
+.zhengWen {width:auto!important;padding-left:30px !important; padding-right:30PX !important;}
+.biaoTi {font-size:28px; font-weight:bold; width:800px; line-height:36px; margin:15px auto; text-align:center;font-family:微软雅黑;}
+.zhengWen #content-main-text {padding:35px 35px 55px 55px !important; width:auto!important;}
+
+img.zuoTu {position:absolute; left:3PX; bottom:4PX;}
+#search_input input {color: #666; float: left; margin-left: 2px;}
